@@ -1,3 +1,4 @@
+
 name: Docker Build and Push
 on:
   push:
@@ -28,4 +29,3 @@ jobs:
           push: true
           tags: docker push lalithkumar11/getting-started:latest
           file: Dockerfile
-
