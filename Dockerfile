@@ -5,6 +5,7 @@ WORKDIR /var/www/html
 # Copying PHP project files to the container
 COPY . /var/www/html
 # Install PHP dependencies (if needed)
+
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     libpq-dev \
